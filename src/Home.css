@@ -1,0 +1,39 @@
+.weatherctn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+
+    border: 2px solid black;
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    
+}
+.fa-magnifying-glass{
+    
+    padding: 5px;
+    font-size: 20px;
+    background-color: red;
+    cursor: pointer;
+}
+.fa-magnifying-glass:hover{
+    background-color: rgb(255, 71, 71);
+}
+.searchctn{
+    display: flex;
+    margin-bottom: 20px;
+}
+.weatherIcon{
+    height: 80px;
+    ;
+}
+.temperatureCtn{
+    font-size: 30px;
+}
+.otherDetail{
+    display: flex;
+    justify-content: space-between;
+}

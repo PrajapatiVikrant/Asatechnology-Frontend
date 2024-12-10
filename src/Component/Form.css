@@ -1,0 +1,24 @@
+.formctn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60vh;
+    width: 40%;
+   
+}
+input{
+    font-size: 18px;
+    padding: 5px;
+    outline: none;
+}
+button{
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(110, 110, 197);
+}
